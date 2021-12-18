@@ -46,6 +46,12 @@ body {
 
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
   
   display: flex;
   align-items: center;
